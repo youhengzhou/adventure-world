@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adventure World</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: monospace;
+      }
+      #display {
+        display: flex;
+        justify-content: center;
+        min-width: 100px;
+        min-height: 100px;
+        padding: 10px;
+        margin: 100px;
+        border: 1px solid black;
+      }
+      #userInputPanel {
+        display: flex;
+        justify-content: center;
+        min-width: 20px;
+        min-height: 10px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid black;
+      }
+      #userInput {
+        padding: 5px;
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="display"></div>
+    <div id="userInputPanel">
+      <input type="text" id="userInput" />
+      <button id="userInputButton">Enter</button>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
